@@ -1,0 +1,29 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+logs/
+
+# Editors and IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Operating systems
+.DS_Store
+Thumbs.db
+
+# Temporary and runtime data
+tmp/
+temp/
+.cache/
+.data/
+
+# Go
+bin/
+coverage.out
+*.test
